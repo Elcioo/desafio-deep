@@ -5,7 +5,7 @@ Esta documentação descreve a infraestrutura projetada para uma aplicação sim
 **Arquitetura** 
 Na imagem abaixo temos uma arquitetura de camadas bastante utilizada em aplicações web distribuidas no mercado. Com uma camada de balanceamento e uma camada de computação utilizando ECS, vou aprofundar um pouco mais abaixo sobre o por que utilização do ECS.
 
-![Arquitetura](./img/desafio-deep.jpg)
+![Arquitetura](./terraform/img/desafio-deep.jpg)
 
     Por que o ECS para camada computação?
 
@@ -111,7 +111,7 @@ Após realizar o deploy dos recursos na aws pegue o output que vai ser gerado na
 
 Realize o teste de conexão com esse dns e veja se a página abaixo da aplicação frontend é exibida.
 
-![Frontend](./img/frontend.png)
+![Frontend](./terraform/img/frontend.png)
 
 **Destruir a Infraestrutura**
 
